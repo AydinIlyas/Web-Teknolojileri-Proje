@@ -1,5 +1,4 @@
 # Web-Teknolojileri Proje
-## Github linki:
 
 ## AnaSayfa:
  Login sayfasına ve diğer sayfalara yönlediren bir navbar içerecek.
