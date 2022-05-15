@@ -1,0 +1,58 @@
+/* body{
+    background-image: url(../Images/background10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}*/
+.page-holder {
+    min-height: 100vh;
+
+} 
+
+
+.bg-cover {
+    background-image: url(../Images/background10.png);
+}
+.giris{
+    background-color: black;
+    opacity: 0.8;
+    color:white;
+    padding-bottom: 50px;
+    margin-bottom: 4%;
+}
+.content-logo img{
+    width:300px;
+    margin: auto;
+    display:block;
+
+}
+
+.giris h1{
+    font-size: 100px;
+}
+.giris ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+.giris ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: white; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 840px) {
+    .giris{
+        margin-top: 150px;
+        margin-bottom: 8%;
+    }
+    .giris h1{
+        
+    font-size: 60px;
+    }
+  }

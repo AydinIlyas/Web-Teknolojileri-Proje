@@ -1,0 +1,48 @@
+.page-holder {
+    min-height: 100vh;
+
+}
+
+.bg-cover {
+    background: red;  /* fallback for old browsers */
+background: -webkit-linear-gradient(45deg,red,white);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(45deg,  red,white,); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.content{
+    font-size: 20px;
+
+}
+.content h1{
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+#bilgi{
+    display:inline-block ;
+    width: 70%;
+}
+#Samsun-logo{
+    display:inline-block ;
+    vertical-align: top;
+    margin-left:20px;
+}
+#Samsun-logo img{
+    height:250px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+#fikstur{
+    margin-bottom: 3%;
+}
+@media screen and (max-width: 840px) {
+    .content{
+        margin:100px;
+    }
+    .content h1{
+        text-align: left;
+        font-size:60px;
+    }
+  }
